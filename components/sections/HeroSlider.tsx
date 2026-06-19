@@ -5,6 +5,7 @@ interface Slide {
   image: string;
   title: string;
   subtitle: string;
+  link?: string; // 있으면 "바로가기" 버튼 표시
 }
 
 const slides: Slide[] = [
@@ -17,6 +18,7 @@ const slides: Slide[] = [
     image: "/slides/clothes.jpg",
     title: "의류",
     subtitle: "공공기관·단체 맞춤 단체복, 근무복, 유니폼 제작",
+    link: "https://danbinuri-shop.vercel.app",
   },
   {
     image: "/slides/industrial_main.jpg",
@@ -80,6 +82,17 @@ export default function HeroSlider() {
             {slides[current].title}
           </h2>
           <p className="text-white/85 text-lg">{slides[current].subtitle}</p>
+
+          {slides[current].link && (
+            <a
+              href={slides[current].link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center px-5 py-2.5 rounded-md bg-white text-olive-900 text-sm font-bold hover:bg-olive-100 transition-colors"
+            >
+              쇼핑몰 바로가기 →
+            </a>
+          )}
         </div>
 
         {/* 슬라이드 인디케이터 (점) */}
