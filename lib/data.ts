@@ -31,7 +31,7 @@ export const categories: Category[] = [
     name: "용역",
     description: "청소·경비·시설관리 등 공공기관 용역 구매대행",
     tag: "우선구매 1순위",
-    url: null,
+    url: "https://danbinuri-clean.vercel.app",
     priority: 1,
     image: "/categories/service.jpg",
   },

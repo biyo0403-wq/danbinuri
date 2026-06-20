@@ -6,6 +6,7 @@ interface Slide {
   title: string;
   subtitle: string;
   link?: string; // 있으면 "바로가기" 버튼 표시
+  linkLabel?: string; // 버튼 문구 (없으면 기본값)
 }
 
 const slides: Slide[] = [
@@ -19,11 +20,14 @@ const slides: Slide[] = [
     title: "의류",
     subtitle: "공공기관·단체 맞춤 단체복, 근무복, 유니폼 제작",
     link: "https://danbinuri-shop.vercel.app",
+    linkLabel: "쇼핑몰 바로가기 →",
   },
   {
     image: "/slides/industrial_main.jpg",
     title: "용역",
     subtitle: "에어컨 설치 / 청소",
+    link: "https://danbinuri-clean.vercel.app",
+    linkLabel: "용역몰 바로가기 →",
   },
 ];
 
@@ -90,7 +94,7 @@ export default function HeroSlider() {
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center px-5 py-2.5 rounded-md bg-white text-olive-900 text-sm font-bold hover:bg-olive-100 transition-colors"
             >
-              쇼핑몰 바로가기 →
+              {slides[current].linkLabel ?? "바로가기 →"}
             </a>
           )}
         </div>
