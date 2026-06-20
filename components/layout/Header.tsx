@@ -9,9 +9,12 @@ export default function Header() {
           {/* 로고 */}
           <div className="flex items-center gap-3">
             <span className="text-xl font-bold text-olive-900">{siteConfig.name}</span>
-            <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-olive-100 text-olive-700 border border-olive-300">
-              창업기업 확인
-            </span>
+            {/* 인증마크 — 여성기업 · 창업기업 · 중소기업 */}
+            <div className="hidden sm:flex items-center gap-2">
+              <img src="/certs/women.jpg" alt="여성기업 인증" className="h-8 w-auto object-contain" />
+              <img src="/certs/startup.jpg" alt="창업기업 인증" className="h-8 w-auto object-contain" />
+              <img src="/certs/sme.jpg" alt="중소기업 인증" className="h-8 w-auto object-contain" />
+            </div>
           </div>
 
           {/* 내비게이션 */}
