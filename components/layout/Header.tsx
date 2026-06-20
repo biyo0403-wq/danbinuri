@@ -9,11 +9,20 @@ export default function Header() {
           {/* 로고 */}
           <div className="flex items-center gap-3">
             <span className="text-xl font-bold text-olive-900">{siteConfig.name}</span>
-            {/* 인증마크 — 여성기업 · 창업기업 · 중소기업 */}
-            <div className="hidden sm:flex items-center gap-2">
-              <img src="/certs/women.jpg" alt="여성기업 인증" className="h-8 w-auto object-contain" />
-              <img src="/certs/startup.jpg" alt="창업기업 인증" className="h-8 w-auto object-contain" />
-              <img src="/certs/sme.jpg" alt="중소기업 인증" className="h-8 w-auto object-contain" />
+            {/* 인증마크 — 여성기업 · 창업기업 · 중소기업 (이미지 + 이름) */}
+            <div className="hidden sm:flex items-end gap-3">
+              <div className="flex flex-col items-center gap-0.5">
+                <img src="/certs/women.jpg" alt="여성기업 인증" className="h-7 w-auto object-contain" />
+                <span className="text-[10px] leading-none text-ink/60">여성기업</span>
+              </div>
+              <div className="flex flex-col items-center gap-0.5">
+                <img src="/certs/startup.jpg" alt="창업기업 인증" className="h-7 w-auto object-contain" />
+                <span className="text-[10px] leading-none text-ink/60">창업기업</span>
+              </div>
+              <div className="flex flex-col items-center gap-0.5">
+                <img src="/certs/sme.jpg" alt="중소기업 인증" className="h-7 w-auto object-contain" />
+                <span className="text-[10px] leading-none text-ink/60">중소기업</span>
+              </div>
             </div>
           </div>
 
