@@ -19,7 +19,7 @@ const slides: Slide[] = [
     image: "/slides/clothes.jpg",
     title: "의류",
     subtitle: "공공기관·단체 맞춤 단체복, 근무복, 유니폼 제작",
-    link: "https://danbinuri-shop.vercel.app",
+    link: "https://danbinuri.imweb.me/",
     linkLabel: "쇼핑몰 바로가기 →",
   },
   {

@@ -22,7 +22,7 @@ export const categories: Category[] = [
     name: "의류",
     description: "공공기관·단체 맞춤 단체복, 근무복, 유니폼 제작",
     tag: "우선구매 1순위",
-    url: "https://danbinuri-shop.vercel.app",
+    url: "https://danbinuri.imweb.me/",
     priority: 1,
     image: "/categories/clothing.jpg",
   },
