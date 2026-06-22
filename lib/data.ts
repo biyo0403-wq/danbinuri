@@ -4,11 +4,13 @@ export const siteConfig = {
   name: "단비누리",
   tagline: "공공기관 전문 플랫폼",
   subTagline: "단체 의류 제작 및 용역 (구매대행) 서비스",
-  phone: "000-0000-0000",
-  email: "info@danbinuri.com",
-  address: "서울특별시 (주소 입력)",
-  businessNumber: "000-00-00000",
-  copyright: "© 2024 단비누리. All rights reserved.",
+  phone: "02-6448-7221",
+  hours: "평일 10:00 ~ 18:00",
+  ceo: "이영기",
+  email: "danbinuri25@naver.com",
+  address: "서울특별시 서초구 논현로11길 49, 2층 (양재동)",
+  businessNumber: "490-81-03515",
+  copyright: "© 2026 단비누리. All rights reserved.",
 };
 
 export const navLinks: NavLink[] = [

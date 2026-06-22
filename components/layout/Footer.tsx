@@ -11,9 +11,10 @@ export default function Footer() {
             <p className="text-sm">{siteConfig.tagline}</p>
           </div>
           <div className="text-sm space-y-1">
-            <p>📞 {siteConfig.phone}</p>
+            <p>📞 {siteConfig.phone} <span className="text-olive-300/70">({siteConfig.hours})</span></p>
             <p>✉️ {siteConfig.email}</p>
             <p>📍 {siteConfig.address}</p>
+            <p>대표자: {siteConfig.ceo}</p>
             <p>사업자등록번호: {siteConfig.businessNumber}</p>
           </div>
         </div>
