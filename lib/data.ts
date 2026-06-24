@@ -24,7 +24,7 @@ export const categories: Category[] = [
     name: "의류",
     description: "공공기관·단체 맞춤 단체복, 근무복, 유니폼 제작",
     tag: "직접생산",
-    url: "https://danbinuri.imweb.me/",
+    url: "https://danbinuri-shop.vercel.app",
     priority: 1,
     image: "/categories/clothing.jpg",
   },
