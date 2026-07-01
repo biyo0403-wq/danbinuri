@@ -19,15 +19,15 @@ const slides: Slide[] = [
     image: "/slides/clothes.jpg",
     title: "의류",
     subtitle: "공공기관·단체 맞춤 단체복, 근무복, 유니폼 제작",
-    link: "https://danbinuri-shop.vercel.app",
+    link: "https://www.danbiwear.co.kr",
     linkLabel: "쇼핑몰 바로가기 →",
   },
   {
     image: "/slides/industrial_main.jpg",
-    title: "용역",
-    subtitle: "에어컨 설치 / 청소",
-    link: "https://danbinuri-clean.vercel.app",
-    linkLabel: "용역몰 바로가기 →",
+    title: "시설관리",
+    subtitle: "에어컨 설치·청소 · 석재(대리석) 보수·시공",
+    link: "https://www.danbiservice.co.kr",
+    linkLabel: "시설관리 바로가기 →",
   },
 ];
 

@@ -147,7 +147,7 @@ export default function InquiryForm() {
               >
                 <option value="">선택해주세요</option>
                 <option value="의류">의류 (단체복·유니폼)</option>
-                <option value="용역">용역 (청소·경비·시설관리)</option>
+                <option value="시설관리">시설관리 (에어컨·석재보수)</option>
                 <option value="사무용품">사무용품</option>
                 <option value="산업용품">산업용품</option>
                 <option value="판촉물·인쇄">판촉물·인쇄</option>
