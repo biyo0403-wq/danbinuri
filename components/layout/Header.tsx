@@ -5,11 +5,11 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-olive-100 shadow-sm">
       <Container>
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* 로고 */}
           <div className="flex items-center gap-3">
             <a href="/" className="flex items-center">
-              <img src="/logo.jpg" alt={siteConfig.name} className="h-12 w-auto object-contain" />
+              <img src="/logo.png" alt={siteConfig.name} className="h-16 w-auto object-contain" />
             </a>
             {/* 인증마크 — 여성기업 · 창업기업 · 중소기업 (이미지 + 이름) */}
             <div className="hidden sm:flex items-end gap-3">
