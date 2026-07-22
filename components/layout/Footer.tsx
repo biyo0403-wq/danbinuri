@@ -7,7 +7,7 @@ export default function Footer() {
       <Container>
         <div className="flex flex-col md:flex-row justify-between gap-6">
           <div>
-            <p className="text-white font-bold text-lg mb-1">{siteConfig.name}</p>
+            <p className="text-white font-bold text-lg mb-1">{siteConfig.companyName}</p>
             <p className="text-sm">{siteConfig.tagline}</p>
           </div>
           <div className="text-sm space-y-1">

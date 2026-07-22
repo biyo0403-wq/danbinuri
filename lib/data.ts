@@ -2,11 +2,12 @@ import type { NavLink, Category } from "./types";
 
 export const siteConfig = {
   name: "단비누리",
+  companyName: "(주)단비누리",
   tagline: "공공기관 전문 플랫폼",
   subTagline: "단체 의류 제작 및 용역 (구매대행) 서비스",
   phone: "02-6448-7221",
   hours: "평일 10:00 ~ 18:00",
-  ceo: "이영기",
+  ceo: "이영기/이지연",
   email: "danbinuri25@naver.com",
   address: "서울특별시 서초구 논현로11길 49, 2층 (양재동)",
   businessNumber: "490-81-03515",
