@@ -5,25 +5,25 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-olive-100 shadow-sm">
       <Container>
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           {/* 로고 */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <a href="/" className="flex items-center">
-              <img src="/logo.png" alt={siteConfig.name} className="h-16 w-auto object-contain" />
+              <img src="/logo.png" alt={siteConfig.name} className="h-20 w-auto object-contain" />
             </a>
             {/* 인증마크 — 여성기업 · 창업기업 · 중소기업 (이미지 + 이름) */}
-            <div className="hidden sm:flex items-end gap-3">
-              <div className="flex flex-col items-center gap-0.5">
-                <img src="/certs/women.jpg" alt="여성기업 인증" className="h-7 w-auto object-contain" />
-                <span className="text-[10px] leading-none text-ink/60">여성기업</span>
+            <div className="hidden sm:flex items-end gap-4">
+              <div className="flex flex-col items-center gap-1">
+                <img src="/certs/women.jpg" alt="여성기업 인증" className="h-10 w-auto object-contain" />
+                <span className="text-xs leading-none text-ink/60">여성기업</span>
               </div>
-              <div className="flex flex-col items-center gap-0.5">
-                <img src="/certs/startup.jpg" alt="창업기업 인증" className="h-7 w-auto object-contain" />
-                <span className="text-[10px] leading-none text-ink/60">창업기업</span>
+              <div className="flex flex-col items-center gap-1">
+                <img src="/certs/startup.jpg" alt="창업기업 인증" className="h-10 w-auto object-contain" />
+                <span className="text-xs leading-none text-ink/60">창업기업</span>
               </div>
-              <div className="flex flex-col items-center gap-0.5">
-                <img src="/certs/sme.jpg" alt="중소기업 인증" className="h-7 w-auto object-contain" />
-                <span className="text-[10px] leading-none text-ink/60">중소기업</span>
+              <div className="flex flex-col items-center gap-1">
+                <img src="/certs/sme.jpg" alt="중소기업 인증" className="h-10 w-auto object-contain" />
+                <span className="text-xs leading-none text-ink/60">중소기업</span>
               </div>
             </div>
           </div>
